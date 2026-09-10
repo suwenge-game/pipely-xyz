@@ -1,0 +1,58 @@
+# 连连看词场 Word Links
+
+> 中文每日分组谜题网站。玩家需要把 16 个词分成 4 组，每组 4 词，发现共同字、同类别、多义词或谐音联系。
+
+## Primary page
+
+- [每日分组谜题](https://pipely.xyz/): 在线游玩本站自研的 16 词分 4 组游戏，支持每日模式与随机练习模式。
+
+## 内容页面
+
+- [每日一题](https://pipely.xyz/daily/): 日期种子确定当日题目，并展示昨日答案。
+- [游戏规则](https://pipely.xyz/rules/): 选词、提交、错误上限与难度颜色说明。
+- [解题策略](https://pipely.xyz/strategies/): 明显组、陷阱词、排除法与多层词义分析。
+- [计分说明](https://pipely.xyz/scoring/): 0-4 次错误对应的成绩等级与本地记录方式。
+- [题库设计](https://pipely.xyz/research/): 原创原则、题组类型与质量检查方法。
+- [打印练习](https://pipely.xyz/printable/): 两组可打印的离线词组练习。
+- [关于](https://pipely.xyz/about/)、[编辑政策](https://pipely.xyz/editorial-policy/)、[隐私政策](https://pipely.xyz/privacy/)、[使用条款](https://pipely.xyz/terms/)、[联系](https://pipely.xyz/contact/)。
+
+## 关键事实
+
+- 游戏引擎为本站自研的纯前端实现，没有第三方游戏嵌入。
+- 内置 52 套原创中文谜题，每套包含 16 个不重复词语与 4 个分组。
+- 每日题目通过日期字符串和确定性伪随机算法选择，同一天刷新结果不变。
+- 玩家有 4 次错误机会，难度分为黄、绿、蓝、紫四档。
+- 游戏数据仅存于浏览器 localStorage，不上传服务器。
+
+---
+
+# 数织 Nonogram 子站
+
+# 数织工坊 (Nonogram Studio)
+
+> 中文在线数织游戏与逻辑解题指南。所有游戏代码与像素图案均为本站原创。
+
+## Primary page
+- https://pipely.xyz/nonogram/ — 可直接游玩的每日数织与自由练习
+
+## 内容页面
+- /rules/ 数织规则
+- /strategies/ 解题策略
+- /scoring/ 本地排行榜计分
+- /daily/ 每日一题
+- /research/ 提示数字的生成原理
+- /printable/ 离线打印玩法
+
+## 关键事实
+- 自研纯前端 5×5 / 10×10 数织引擎，并提供 3×3 入门提示模式。
+- 内置 45 幅原创硬编码像素图案，行列提示自动生成。
+- 每日谜题通过日期字符串与确定性 PRNG 选取，同日保持一致。
+- 游戏数据只保存在用户浏览器 localStorage，不上传服务器。
+
+## 成语连线 Chengyu Connections
+
+- [成语连线](https://pipely.xyz/chengyu/): 从 16 个成语中找出 4 组隐藏联系的原创中文每日谜题。
+- [今日成语题](https://pipely.xyz/chengyu/daily/): 依据本地日期确定，同一天保持同一题。
+- [规则](https://pipely.xyz/chengyu/rules/)与[策略](https://pipely.xyz/chengyu/strategies/): 说明共同字、窄类别、多义词、谐音和排除法。
+- 内置 73 道原创棋面，每题 16 词、4 组、黄绿蓝紫四档难度；允许 4 次错误并支持无剧透色块分享。
+- 题库组合与组名由本站编写并人工核对，不复制其他 Connections 题库；进度与连续记录保存在浏览器 localStorage。
